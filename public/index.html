@@ -1,45 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breezy HubSpot Integration - Example</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #ff7a59;
-        }
-        .note {
-            background: #f0f0f0;
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Breezy HubSpot Admin</title>
 </head>
 <body>
-    <h1>Breezy HubSpot Integration POC</h1>
-    
-    <div class="note">
-        <strong>Note:</strong> This is just a placeholder file. Build your frontend solution here or in a separate directory.
-        <br><br>
-        <strong>Backend server:</strong> Make sure your backend is running on <code>http://localhost:3001</code>
-        <br><br>
-        <strong>Your task:</strong>
-        <ul>
-            <li>Display contacts from <code>GET /api/contacts</code></li>
-            <li>Create contacts via <code>POST /api/contacts</code></li>
-            <li>Create deals via <code>POST /api/deals</code></li>
-            <li>Show deals for each contact</li>
-            <li>Add an AI-powered feature</li>
-        </ul>
-    </div>
+  <h1>Breezy + HubSpot Integration</h1>
 
-    <p>Delete this file and build your own frontend solution!</p>
+  <button id="loadContacts">Load Contacts</button>
+  <pre id="contactsOutput"></pre>
+
+  <script src="app.js"></script>
 </body>
 </html>
